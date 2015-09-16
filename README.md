@@ -1,8 +1,10 @@
-# frontin
+# yufrontin
 [![NPM version][npm-image]][npm-url]
 [![schoolmarm-standard-style][marm-image]][marm-url]
 [![experimental][stability-image]][stability-url]
 [![Downloads][downloads-image]][downloads-url]
+
+> lightweight yaml front matter extractor using yaml.js
 
 ## Installation
 ```bash
