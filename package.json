@@ -1,0 +1,35 @@
+{
+  "name": "frontin",
+  "version": "0.1.0",
+  "description": "lightweight yaml front matter extractor using yaml.js",
+  "main": "index.js",
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akileez/frontin.git"
+  },
+  "author": {
+    "name": "Keith Williams",
+    "email": "git@keeda.net",
+    "url": "https://github.com/akileez/frontin"
+  },
+  "homepage": "https://github.com/akileez/frontin",
+  "bugs": {
+    "url": "https://github.com/akileez/frontin/issues"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
