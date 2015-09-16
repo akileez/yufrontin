@@ -1,6 +1,6 @@
 {
-  "name": "frontin",
-  "version": "0.1.0",
+  "name": "yufrontin",
+  "version": "0.1.1",
   "description": "lightweight yaml front matter extractor using yaml.js",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
   "files": [
     "LICENSE",
     "index.js",
-    "README.md"
+    "README.md",
+    "lib"
   ]
 }
