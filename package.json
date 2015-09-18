@@ -1,6 +1,6 @@
 {
   "name": "yufrontin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "lightweight yaml front matter extractor using yaml.js",
   "main": "index.js",
   "scripts": {
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/akileez/frontin.git"
+    "url": "git://github.com/akileez/yufrontin.git"
   },
   "author": {
     "name": "Keith Williams",
     "email": "git@keeda.net",
-    "url": "https://github.com/akileez/frontin"
+    "url": "https://github.com/akileez/yufrontin"
   },
-  "homepage": "https://github.com/akileez/frontin",
+  "homepage": "https://github.com/akileez/yufrontin",
   "bugs": {
-    "url": "https://github.com/akileez/frontin/issues"
+    "url": "https://github.com/akileez/yufrontin/issues"
   },
   "license": "ISC",
   "keywords": [],
