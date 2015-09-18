@@ -13,19 +13,29 @@ $ npm install yufrontin
 
 ## Usage
 ```js
+yufrontin('---\ntitle: \'me\'\n---\nHello World')
+// results in  -->
+{ data: { title: 'me' }, content: 'Hello World' }
 
+yufrontin('Hello World')
+{ data: {}, content: 'Hello World' }
 ```
 
 ## API
-```js
 
-```
+#### `yufrontin(inputString)`
+
+- **inputString** *[String]* data to be parsed by yaml.js  
+- **return** *[Object]*
 
 ## Why?
 
+Why another yaml front matter extractor? I wanted to try yaml.js.
+
 
 ## See Also
--
+- [gray-matter](https://github.com/jonschlinkert/gray-matter): My all time favorite YAML front matter parser. 
+- [front-matter-extractor](https://github.com/75lb/front-matter-extractor): the code base yufrontin shamelessly is based on.
 
 ## License
 [ISC](https://github.com/akileez/yufrontin/blob/master/LICENSE)
