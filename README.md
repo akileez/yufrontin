@@ -6,6 +6,9 @@
 
 > lightweight yaml front matter extractor using yaml.js
 
+The core of yaml.js is included within the lib directory. I did not feel the need to use the entire repo as a dependency
+when I would only use the core. This keeps the size of the project small. License file for yaml.js is included.
+
 ## Installation
 ```bash
 $ npm install yufrontin
@@ -34,8 +37,10 @@ Why another yaml front matter extractor? I wanted to try yaml.js.
 
 
 ## See Also
-- [gray-matter](https://github.com/jonschlinkert/gray-matter): My all time favorite YAML front matter parser. 
-- [front-matter-extractor](https://github.com/75lb/front-matter-extractor): the code base yufrontin shamelessly is based on.
+- [parse-yuf](https://github.com/akileez/parse-yuf): read in a file to be parsed by yufrontin returning an extended results or output from yaml.js
+- [gray-matter](https://github.com/jonschlinkert/gray-matter): My all time favorite YAML front matter parser before yufrontin. 
+- [front-matter-extractor](https://github.com/75lb/front-matter-extractor): the code base which yufrontin is shamelessly based on.
+
 
 ## License
 [ISC](https://github.com/akileez/yufrontin/blob/master/LICENSE)
