@@ -23,6 +23,19 @@ yufrontin('---\ntitle: \'me\'\n---\nHello World')
 yufrontin('Hello World')
 { data: {}, content: 'Hello World' }
 ```
+or you could do this:
+
+```js
+var fs = require('fs')
+var parsefm = require('parse-yuf')
+
+var file = fs.readFileSync('some/file/to/be/read.md', 'utf8')
+yufrontin(file)
+
+parsefm('some/file/to/be/read.md')
+
+
+```
 
 ## API
 
@@ -40,6 +53,7 @@ Why another yaml front matter extractor? I wanted to try yaml.js.
 - [parse-yuf](https://github.com/akileez/parse-yuf): read in a file to be parsed by yufrontin returning an extended results or output from yaml.js
 - [gray-matter](https://github.com/jonschlinkert/gray-matter): My all time favorite YAML front matter parser before yufrontin. 
 - [front-matter-extractor](https://github.com/75lb/front-matter-extractor): the code base which yufrontin is shamelessly based on.
+- [yamljs](https://github.com/jeremyfa/yaml.js): yaml engine used here.
 
 
 ## License
