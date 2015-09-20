@@ -1,6 +1,6 @@
 {
   "name": "yufrontin",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "lightweight yaml front matter extractor using yaml.js",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,21 @@
     "url": "https://github.com/akileez/yufrontin/issues"
   },
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "yaml",
+    "yml",
+    "yfm",
+    "front-matter",
+    "front",
+    "matter",
+    "metadata",
+    "meta",
+    "data",
+    "content",
+    "yamljs",
+    "extract",
+    "parse"
+  ],
   "dependencies": {
   },
   "devDependencies": {
